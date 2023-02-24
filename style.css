@@ -3,7 +3,45 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+
 #hero_section{
     background-image: url("heroimg.jpg");
+    background-size: cover;
     height: 100vh;
+    }
+.score_board{
+    
+    height:15rem;
+    width: 20rem;
+    background-color: blue;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 2rem ;
+    
+}
+P{
+    border: 1px dotted white;
+    padding: 15px;
+    font-size: 2rem;
+    color: bisque;
+}
+.btn{
+    padding: 5px 10px;
+    border: 2px solid black;
+}
+h1{
+    color: white;
+    font-size: 2rem;
+    border-bottom:2px dashed black ;
+}
+.reset{
+    display: block;
+    margin: 1rem auto;
+    padding: 1rem;
+    color: red;
+    font-size: large;
+    font-weight: bold;
+    border: 3px dashed red;
+
 }
